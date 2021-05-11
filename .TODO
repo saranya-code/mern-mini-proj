@@ -1,0 +1,12 @@
+// Create a MERN stack app that displays a list of 10 users
+// Use Mongo seeding to seed the database with your list
+// Create the back-end:
+    User model with these fields: Name, Email, Age, Role (Admin or User)
+    Basic CRUD routes (GET all, GET single, Update, Delete, Create)
+
+// In React:
+    -The home page should list all the users in a table-like format. We should be able to sort by name or email
+    -Clicking on the person's name should lead to a Detail page for that user
+    -At the top of the home page should be link to create a new user, which will have a form to complete
+    -Submitting the form creates a new user, then returns the person back to the home page
+    -Also on the home page table should be an X to delete a user    
